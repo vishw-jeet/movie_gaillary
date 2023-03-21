@@ -35,8 +35,8 @@ const onMovieCardAdd =(ele) =>{
         Rating: ratingControl.value,
     }
     cl(movieObj)
-    onMovieArray.unshift(movieObj)
-    cl(onMovieArray)
+    onMovieCardArray.unshift(movieObj)
+    cl(onMovieCardArray)
     titleControl.value="";
     imgUrlControl.value="";
     ratingControl.value="";
